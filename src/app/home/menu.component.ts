@@ -25,6 +25,7 @@ export class MenuComponent implements OnInit {
               private authService: AuthService) { }
 
   ngOnInit() {
+    console.log('Test commit');
   }
 
   logOut(): void {
